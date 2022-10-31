@@ -29,3 +29,9 @@ nav a {
     font-weight: bold;
     font-size: large;
 }
+
+ul {
+    box-sizing: content-box;
+    width: 325px;
+    border: black solid;
+}
