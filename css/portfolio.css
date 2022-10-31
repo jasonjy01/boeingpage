@@ -35,3 +35,7 @@ ul {
     width: 325px;
     border: black solid;
 }
+
+div {
+    position: fixed;
+}
