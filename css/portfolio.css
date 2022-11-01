@@ -33,9 +33,12 @@ nav a {
 ul {
     box-sizing: content-box;
     width: 325px;
-    border: black solid;
 }
 
 div {
-    position: static;
+    position: absolute;
+    top: 0;
+    left: 400px;
+    border-left: solid rgb(12, 116, 185);
+    padding-left: 25px;
 }
