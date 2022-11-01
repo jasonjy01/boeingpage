@@ -17,6 +17,12 @@ h3 {
     text-decoration: underline;
 }
 
+hr {
+    background-color: rgb(155, 206, 240);
+    height: 5px;
+    border: none;
+}
+
 nav {
     background-color: rgb(155, 206, 240);
     text-align: center;
@@ -30,15 +36,24 @@ nav a {
     font-size: large;
 }
 
-ul {
-    box-sizing: content-box;
-    width: 325px;
+.header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    border-top: 10px solid white;
 }
 
-div {
-    position: absolute;
-    top: 0;
-    left: 400px;
-    border-left: solid rgb(12, 116, 185);
-    padding-left: 25px;
+.sidebar {
+    width: 20%;
+    overflow: hidden;
+    float: left;
+}
+
+.descriptions {
+    width: 80%;
+    float: right;
+}
+
+.footer {
+    clear: both;
 }
