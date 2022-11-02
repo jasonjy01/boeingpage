@@ -12,7 +12,7 @@ h1 {
 }
 
 h3 {
-    font-weight: bold;
+    font-weight: 900;
     font-size: larger;
     text-transform: uppercase;
     color:rgb(0, 52, 196);
@@ -27,7 +27,8 @@ hr {
 nav {
     background-color: rgb(155, 206, 240);
     text-align: center;
-    padding: 20px;
+    overflow: hidden;
+    padding: 25px;
 }
 
 nav a {
