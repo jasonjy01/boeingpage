@@ -66,6 +66,9 @@ nav a {
     padding-left: 20px;
     font-size: large;
 }
+.descriptions li {
+    margin: 30px;
+}
 
 .footer {
     clear: both;
