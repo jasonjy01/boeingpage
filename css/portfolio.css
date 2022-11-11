@@ -73,3 +73,13 @@ nav a {
 .footer {
     clear: both;
 }
+
+#header, #sidebar, #footer {
+    position: fixed;
+    left: 2%;
+    bottom: 110px;
+    background-color: rgb(255, 255, 115);
+    font-size:x-large;
+    font-weight: 900;
+    font-family: monospace;
+}
