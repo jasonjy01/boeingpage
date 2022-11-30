@@ -15,17 +15,36 @@ h3 {
     font-weight: 900;
     font-size: larger;
     text-transform: uppercase;
-    color:rgb(0, 52, 196);
+    color:rgb(0, 50, 195);
+}
+
+h4 {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+}
+
+h5 {
+    font-weight: 800;
+    font-size: large;
+    color:rgb(255, 170, 75);
+}
+
+h6 {
+    font-weight: 800;
+    font-size: large;
+    color:rgb(15, 160, 0);
 }
 
 hr {
-    background-color: rgb(155, 206, 240);
+    background-color: rgb(155, 205, 240);
     height: 5px;
     border: none;
 }
 
 nav {
-    background-color: rgb(155, 206, 240);
+    background-color: rgb(155, 205, 240);
+    overflow: hidden;
     text-align: center;
     padding: 25px;
 }
@@ -54,31 +73,35 @@ nav a {
     padding-left: 50px;
 }
 
-.descriptions {
+.standards {
     width: 80%;
     float: right;
 }
 
-.descriptions ul {
+.standards ul {
     padding-right: 150px;
     padding-top: 20px;
     padding-left: 20px;
     font-size: large;
 }
-.descriptions li {
+.standards li {
     margin: 30px;
 }
 
 .footer {
     clear: both;
+    padding-bottom: 25px;
 }
 
-#header, #sidebar, #footer {
+#greybar {
     position: fixed;
-    left: 2%;
-    bottom: 110px;
-    background-color: rgb(255, 255, 115);
-    font-size:x-large;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(210, 210, 210);
+    font-size: 20px;
     font-weight: 900;
     font-family: monospace;
+    z-index: 1;
 }
