@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <!--This onboarding page is intended to be intuitive for the user and the programmer, so please reach out 
+        using the "Webpage Support" document located in \\NW\Data\A5200MPP\EONorthData\EO-Onboarding-Webpage if there are any questions or improvements-->
         <meta charset="utf-8">
-        <title>Workbook</title>
+        <title>EO Onboarding Webpage</title>
         <link rel="stylesheet" href="../css/portfolio.css">
     </head>
     <body>
         <h1>
-            <a href="https://my.boeing.com/myb/myportal/myboeing/MyBoeingHome" target="_blank">
-                <img src="../img/boeing-logo.png" alt="Boeing Logo" width="325"><br>
-            </a>
+            <!--The title at the top is interactive and brings users to the Boeing home page in a separate tab using target="_blank".
+            img-src is used for the logo that will appear as "Boeing Logo" if broken using alt.-->
+            <a href="https://my.boeing.com/myb/myportal/myboeing/MyBoeingHome" target="_blank"><img src="../img/boeing-logo.png" alt="Boeing Logo" width="325"><br></a>
             Project Management — Everett Machining & Emergent Operations
         </h1>
         <section class="header">
+            <!--The header is a floating header that stays on the page as you scroll. All images and words are linked.-->
             <nav onmouseenter="headerFunc()" onmouseleave="notFunc()">
                 <a href="https://calendar.web.boeing.com/calendar.aspx" target="_blank" alt="Employee Calendar"><img src="../img/calendar.png" alt="Calendar" width="25"> Employee Calendar</a>
                 <a href="https://ets-prd.web.boeing.com/" target="_blank" alt="Employee Timekeeping System"><img src="../img/clock.png" alt="Clock" width="25"> Employee Timekeeping System</a>
@@ -27,21 +30,23 @@
             </nav>
         </section>
         <section class="sidebar">
+            <!--The sidebar is similar to the header but does not stay on the page. The titles are not interactive but serve to organize the links.-->
             <div onmouseenter="sidebarFunc()" onmouseleave="notFunc()">
                 <ul>
-                    <h3>Responsibilities</h3>
+                    <h2>Responsibilities</h2>
                     <li><a href="https://mylearn-ss.web.boeing.com/psc/mylprd/EMPLOYEE/mylprd/c/LM_SS_LEARNING.LM_SS_LEARNING_UI.GBL?Page=LM_LRNG_PLAN_Z&" target="_blank" alt="Required Trainings">Required Trainings</a></li>
                     <li><a href="../docs/ppt-template.pptx" target="_blank" alt="BCA Powerpoint Template">BCA Powerpoint Template</a></li>
                     <li><a href="../docs/outlook.docx" target="_blank" alt="Configuring EO Outlook Signature">Configuring EO Outlook Signature</a></li>
                     <li><a href="https://securityandfire.web.boeing.com/badges/index.html" target="_blank" alt="Visitor's Screening">Visitor's Screening</a></li>
                     <li><a href="https://ease.web.boeing.com/user/defaultPage.ocr" target="_blank" alt="EASE Compliance Portal">EASE Compliance Portal</a></li>
                     <li><a href="http://forms.web.boeing.com/detail.cfm?fnum=X36498" target="_blank" alt="Production Equipment Request">Production Equipment Request</a></li>
+                    <li><a href="../docs/chargelines.docx" target="_blank" alt="EO Charge Lines & Codes">EO Charge Lines & Codes</a> </li>
                     <li><a href="https://my.boeing.com/myb/myportal/Finance/enterprise_capital/bca_capital/" target="_blank" alt="BCA Capital & Tooling">BCA Capital & Tooling</a></li>
                     <li><a href="https://ariba-isc.web.boeing.com/" target="_blank" alt="SAP Ariba">SAP Ariba</a></li>
                     <li><a href="https://mxesprod.web.boeing.com/maximo/webclient/login/login.jsp" target="_blank" alt="Maximo">Maximo</a></li>
                 </ul>
                 <ul>
-                    <h3>Databases</h3>
+                    <h2>Databases</h2>
                     <li><a href="http://forms.web.boeing.com/index_enterprise.cfm" target="_blank" alt="Boeing Forms Library">Boeing Forms Library</a></li>
                     <li><a href="../docs/redars-psds.docx" target="_blank" alt="Requesting Access REDARS/PSDS">Requesting Access REDARS/PSDS</a></li>
                     <li><a href="https://redars.web.boeing.com/redars/services/RedarsDocumentRetrieval?jadeAction=DISPLAY_HOMEPAGE_HANDLER" target="_blank" alt="Reference Engineering Data">Reference Engineering Data</a></li>
@@ -49,7 +54,7 @@
                     <li><a href="http://gad.ca.boeing.com/GADHome.asp" target="_blank" alt="Global Attributes Database">Global Attributes Database</a></li>
                 </ul>
                 <ul>
-                    <h3>Software & Applications</h3>
+                    <h2>Software & Applications</h2>
                     <li><a href="../docs/catia.docx" target="_blank" alt="CATIA">CATIA</a></li>
                     <li><a href="../docs/enovia.docx" target="_blank" alt="ENOVIA">ENOVIA</a></li>
                     <li><a href="../docs/ivt.docx" target="_blank" alt="IVT">IVT</a></li>
@@ -60,7 +65,7 @@
                     <li><a href="../docs/project.docx" target="_blank" alt="Microsoft Project">Microsoft Project</a></li>
                 </ul>
                 <ul>
-                    <h3>Hardware</h3>
+                    <h2>Hardware</h2>
                     <li><a href="https://mobile.web.boeing.com/connectivity/provisionnet/" target="_blank" alt="Setting Up Your Phone">Setting Up Your Phone</a></li>
                     <li><a href="https://mobile.web.boeing.com/connectivity/provisionnet/provisionnet-misc/" target="_blank" alt="Connecting to ProvisionNet">Connecting to ProvisionNet Wifi</a></li>
                     <li><a href="https://infosec.web.boeing.com/Search/ISFindIt.aspx?aId=27" target="_blank" alt="Remote Access">Remote Access</a></li>
@@ -70,7 +75,7 @@
                     <li><a href="http://site-support.web.boeing.com/Mail/#collapse23" target="_blank" alt="Updating Mail Code for Deliveries">Updating Mail Code for Deliveries</a></li>
                 </ul>
                 <ul>
-                    <h3>Salary, Rewards, & Benefits</h3>
+                    <h2>Salary, Rewards, & Benefits</h2>
                     <li><a href="https://totalaccess.web.boeing.com/TotalAccess#PaycheckInformationDeductionsTaxes" target="_blank" alt="Paycheck Information">Paycheck Information</a></li>
                     <li><a href="http://dstlinks.web.boeing.com/Calendars.htm" target="_blank" alt="Pay & Holiday Calendars">Pay & Holiday Calendars</a></li>
                     <li><a href="https://totalaccess.web.boeing.com/TotalAccess#PTOVacationSickLeaveBalances" target="_blank" alt="PTO, Vacation, & Sick Leave">PTO, Vacation, & Sick Leave</a></li>
@@ -78,7 +83,7 @@
                     <li><a href="https://securelogon.boeing.com/PSAML/idp/startSSO.ping?PartnerSpId=saml.alight.com&TargetResource=https://sso.alight.com/portal?pageCd=PRTL_DIRECT" target="_blank" alt="Total Rewards & Benefits">Total Rewards & Benefits</a></li>
                 </ul>
                 <ul>
-                    <h3>Career Development</h3>
+                    <h2>Career Development</h2>
                     <li><a href="https://intellectualproperty.bcs.boeing.com/article-categories/invent/" target="_blank" alt="Boeing Patent Process">Boeing Patent Process</a></li>
                     <li><a href="https://brighthorizons.edassist.com/Boeing/" target="_blank" alt="Learning Together Program">Learning Together Program</a></li>
                     <li><a href="https://degreed.com/plan/2165400" target="_blank" alt="Degreed Certificate Program">Degreed Certificate Program</a></li>
@@ -87,30 +92,33 @@
                     <li><a href="https://authn.edx.org/login?next=%2Fdashboard" target="_blank" alt="edX">edX</a></li>
                 </ul>
                 <ul>
-                    <h3>Communities</h3>
+                    <h2>Communities</h2>
                     <li><a href="https://insite.web.boeing.com/culture/secure/displayDashboard.do" target="_blank" alt="inSite">inSite</a></li>
                     <li><a href="http://welcome.web.boeing.com/index.shtml" target="_blank" alt="Employee Orientation">Employee Orientation</a></li>
                     <li><a href="https://www.boeingrecognition.com/#/dashboard" target="_blank" alt="Boeing Recognition Program">Boeing Recognition Program</a></li>
                 </ul>
-                <uL>
-                    <h3>Lifestyle Services</h3>
+                <ul>
+                    <h2>Lifestyle Services</h2>
                     <li><a href="https://boeingus.savings.beneplace.com/home" target="_blank" alt="Boeing Discount Program">Boeing Discount Program</a></li>
                     <li><a href="http://foodservices.web.boeing.com/" target="_blank" alt="Food Services">Food Services</a></li>
                     <li><a href="https://boeing.service-now.com/worklife?id=hr_kb_article_view&sys_kb_id=828943301b6f81504f8753d1604bcb0d" target="_blank" alt="Employee Service Center">Employee Service Center</a></li>
                     <li><a href="https://boeing.service-now.com/worklife?id=hr_kb_article_view&sys_kb_id=2d59e5e31b609190e9eb97d2b24bcbb9" target="_blank" alt="Commuter Benefits">Commuter Benefits</a></li>
-                </uL>
+                </ul>
             </div>
         </section>
         <section class="standards">
             <div onmouseenter="standardsFunc()" onmouseleave="notFunc()">
+                <!--This section was difficult to organize with indents, centering, images, links, and text. All bolded words are interactive and there are
+                images to help describe the steps. This section will be the most necessary to maintain since these processes are subject to change.
+                Expenses and capital are consistent by definition according to the Boeing Accounting Manual.-->
                 <ul>
-                    <h4>
+                    <h3>
                         PROJECT MANAGER FLOWCHART<br>
                         <img src="../img/flowchart.png" alt="Flowchart"><br>
-                    </h4>
-                    <h4>EMERGENT OPERATIONS MAJOR CHECKLIST</h4>
+                    </h3>
+                    <h3>EMERGENT OPERATIONS MAJOR CHECKLIST</h3>
                     <li>
-                        <h5>Requesting Condition Code: <img src="../img/check.png" alt="check" width="30"></h5>
+                        <h4>Requesting Condition Code: <img src="../img/check.png" alt="check" width="30"></h4>
                         <i>Historical condition codes are stored in <a href="https://mxesprod.web.boeing.com/maximo/webclient/login/login.jsp" target="_blank" alt="Maximo"><b>Maximo</b></a></i><br><br>
                         1. Open <a href="http://forms.web.boeing.com/detail.cfm?fnum=X36498" target="_blank" alt="Production Equipment Request"><b>Production Equipment Request</b></a> form<br>
                         2. Select the pdf symbol next to "Download"<br>
@@ -122,7 +130,7 @@
                         <img src="../img/route-to-approver.png" alt="Route to Approver"><br>
                     </li>
                     <li>
-                        <h5>Submitting Cost Estimate Request to Equipment Engineering: <img src="../img/check.png" alt="check" width="30"></h5>
+                        <h4>Submitting Cost Estimate Request to Equipment Engineering: <img src="../img/check.png" alt="check" width="30"></h4>
                         <i>Use the <a href="http://mxesprod-wfe.web.boeing.com/SR/SiteSrvc.aspx?siteList=PSD01" target="_blank" alt="Service Request"><b>Service Request</b></a> link at the top of this page to contact Facilities Asset & Management</i><br><br>
                         1. Open <a href="http://forms.web.boeing.com/detail.cfm?fnum=X36498" target="_blank" alt="Production Equipment Request"><b>Production Equipment Request</b></a> form<br>
                         2. Select the pdf symbol next to "Download"<br>
@@ -132,7 +140,7 @@
                         <img src="../img/route-to-approver.png" alt="Route to Approver"><br>
                     </li> 
                     <li>
-                        <h5>Submitting Capital & Tooling Request: <img src="../img/check.png" alt="check" width="30"></h5>
+                        <h4>Submitting Capital & Tooling Request: <img src="../img/check.png" alt="check" width="30"></h4>
                         <i>Email the Capital Focal <a href="mailto: joel.rivera8@boeing.com" alt="Joel Rivera"><b>Joel Rivera</b></a> to initiate Capital Request</i><br><br>
                         1. Open <a href="https://my.boeing.com/myb/myportal/Finance/enterprise_capital/bca_capital/" target="_blank" alt="BCA Capital & Tooling"><b>BCA Capital & Tooling</b></a> form<br>
                         2. Expand "Templates" under "Processes and Templates"<br>
@@ -140,7 +148,7 @@
                         3. Open "Capital & Tooling Request"
                     </li>
                     <li>
-                        <h5>Creating Status Slide: <img src="../img/check.png" alt="check" width="30"></h5>
+                        <h4>Creating Status Slide: <img src="../img/check.png" alt="check" width="30"></h4>
                         1. Open the Four Square <a href="../docs/status-template.pptx" target="_blank" alt="Status Template"><b>Status Template</b></a><br>
                         2. Fill out the first slide with required milestones and project information<br>
                         <img src="../img/status.png" alt="Status Slide" width="600"><br>
@@ -148,32 +156,32 @@
                         <img src="../img/spending.png" alt="Spending" width="600"><br>
                         4. Save to the project folder on the EO server for reference<br>
                     </li>
-                    <h4>EXPENSE & CAPITAL CRITERIA</h4>
+                    <h3>EXPENSE & CAPITAL CRITERIA</h3>
                     <li>
                         <i>Refer to the <a href="https://bam.web.boeing.com/bam/" target="_blank" alt="Boeing Accounting Manual"><b>Boeing Accounting Manual</b></a> , document <a href="../docs/expenses.pdf" target="_blank" alt="Expenses"><b>30.1 "Property (Including Discontinued Operations)"</b></a></i>
                     </li>
                     <li>
-                        <h6>Expense Costs:</h6>
+                        <h5>Expense Costs:</h5>
                         An acquired asset cost is the combination of its purchase, installation, spares, and accessories.<br>
                         For assets that remain below the $5,000 threshold, we have to determine who will be maintaining the assets through an ID number.<br>
                         The acquisition cost is less than $5,000.<br>
                     </li>
                     <li>
-                        <h6>Tangible Capital Assets:</h6>
+                        <h5>Tangible Capital Assets:</h5>
                         A single Boeing asset, a grouping of interdependent assets, or an original complement of low-cost equipment.<br>
                         General purpose in nature.<br>
                         The acquisition cost is equal to or greater than $5,000.<br>
                         The expected service life is equal to or greater than one year.<br>
                     </li>
                     <li>
-                        <h6>Original Complement of Low-Cost Capital Equipment:</h6>
+                        <h5>Original Complement of Low-Cost Capital Equipment:</h5>
                         A grouping of assets.<br>
                         General purpose in nature.<br>
                         The acquisition cost is equal to or greater than $100,000 and can include multiple asset categories and ABU funding sources.<br>
                         The expected service life is equal to or greater than one year.<br>
                     </li>
                     <li>
-                        <h6>Internal-Use Software:</h6>
+                        <h5>Internal-Use Software:</h5>
                         A single Boeing asset or a grouping of interdependent assets.<br>
                         General purpose in nature.<br>
                         The acquisition cost is equal to or greater than $10 million.<br>
@@ -184,6 +192,8 @@
         </section>
         <section class="footer">
             <nav onmouseenter="footerFunc()" onmouseleave="notFunc()">
+                <!--This footer is used to connect the user with links, phone numbers, and email addresses directly. This section is intended to stay at the bottom
+                of the page and not stay on the screen when scrolling like the header.-->
                 <a href="https://universityalliance.web.boeing.com/mccammon/index.htm" target="_blank" alt="Helpful Engineering Links"><b>Helpful Engineering Links</b></a>
                 <a href="https://insite.web.boeing.com/culture/displayGroupMedia.do?groupId=133596" target="_blank" alt="Workplace How To"><b>Technical Workplace Coaching</b></a>
                 <a href="tel: 4252340911" alt="IT Support" onclick="alert('Please call (425) 234-0911 for service.');"><b>IT Support:</b> <i>(425) 234-0911</i></a>
@@ -192,6 +202,9 @@
                 <a href="../Webpage Support.docx" target="_blank" alt="Webpage Support"><b>Webpage Support</b></a>
             </nav>
         </section>
+        <!--This small paragraph section with id="greybar" is locked into the bottom of the screen at all times using CSS. The below script changes the text
+        that appears as the user hovers on/off the header, sidebar, standards, and footer. The nonFunc function puts "..." when the user is not hovering over
+        material that requires descriptions.-->
         <p><span id="greybar"></span></p>
         <script>
             function headerFunc() {

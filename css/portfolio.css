@@ -1,3 +1,4 @@
+/*All text: Arial, black, no underline, no bullets, default line spacing*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     color:black;
@@ -6,42 +7,42 @@
     line-height: 1.6;
 }
 
+/*Project Management header at top: centered text, default size*/
 h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-h3 {
+/*Sidebar headers on left: heavy font bold, larger font size, uppercase all chars, blue*/
+h2 {
     font-weight: 900;
     font-size: larger;
     text-transform: uppercase;
     color:rgb(0, 50, 195);
 }
 
-h4 {
+/*Standards headers in middle: heavy font bold, 30px font size, centered, uppercase all chars */
+h3 {
     font-weight: 800;
     font-size: 30px;
     text-align: center;
+    text-transform: uppercase;
 }
 
-h5 {
+/*Standards steps titles under standards headers: heavy font bold, large font, orange*/
+h4 {
     font-weight: 800;
     font-size: large;
     color:rgb(255, 170, 75);
 }
 
-h6 {
+/*Standards expenses and capital under standards headers: heavy font bold, large font, green*/
+h5 {
     font-weight: 800;
     font-size: large;
     color:rgb(15, 160, 0);
 }
 
-hr {
-    background-color: rgb(155, 205, 240);
-    height: 5px;
-    border: none;
-}
-
+/*Navigation box for header and footer: light blue, hide overflown text past box, center text, paddding inside box*/
 nav {
     background-color: rgb(155, 205, 240);
     overflow: hidden;
@@ -49,6 +50,7 @@ nav {
     padding: 25px;
 }
 
+/*Navigation text for header and footer: padding between text, font bold, large font*/
 nav a {
     padding-left: 8px;
     padding-right: 8px;
@@ -56,6 +58,7 @@ nav a {
     font-size: large;
 }
 
+/*Class header: position stays when scrolling, at top, brought to front, top border*/
 .header {
     position: sticky;
     top: 0px;
@@ -63,36 +66,40 @@ nav a {
     border-top: 10px solid white;
 }
 
+/*Class sidebar: fixed size, hide overflown text past sidebar, positioned left*/
 .sidebar {
     width: 20%;
     overflow: hidden;
     float: left;
 }
 
+/*Class sidebar lines: padding between lines*/
 .sidebar ul {
     padding-left: 50px;
 }
 
+/*Class standards: fixed size, overflown tepositioned right*/
 .standards {
     width: 80%;
     float: right;
 }
 
+/*Class standards lines: padding on all sides, font large*/
 .standards ul {
     padding-right: 150px;
     padding-top: 20px;
     padding-left: 20px;
     font-size: large;
-}
-.standards li {
-    margin: 30px;
+    margin: 100px;
 }
 
+/*Class footer: not adjacent to any floating boxes, padding*/
 .footer {
     clear: both;
     padding-bottom: 25px;
 }
 
+/*ID greybar: fixed position always on sceen, centered, bottom, white, heavy font bold, Monospace font, brought to front*/
 #greybar {
     position: fixed;
     bottom: 0;
